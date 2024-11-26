@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 20px auto;
+    width: 80%;
+}
+h1 {
+    margin-bottom: 5px;
+}
+h2 {
+    margin: 5px 0;
+    font-weight: normal;
+}
+table {
+    margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 80%;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #afaeae;
+}
+td {
+    color: black;
+    font-weight: bold;
+}
+.legend {
+    margin-top: 20px;
+}
+
+.legend table {
+    margin: 0 auto;
+}
+.legend td {
+    text-align: left;
+    padding: 5px 10px;
+}
+.derecha {
+    text-align: right;
+}
+.derecha {
+    text-align: right;
+}
+.horario {
+    font-family: cursive;
+    text-align: right;
+    margin-right: 8%;
+  }
+.titulo {
+    text-align: right;
+    margin-right: 8%;
+}
+.curs {
+    text-align: center;
+}
+.MP12 {
+    background-color: #f0ecc6;
+}
+.MP08 {
+    background-color: #dce9f5;
+}
+.MP04 {
+    background-color: #c8c8c9;
+}
+.MP06 {
+    background-color: #f7e1cd;
+}
+.MP07 {
+    background-color: #f5dfda;
+}
+.MP10 {
+    background-color: #d7fbc5;
+}
+
+.legend table tr:nth-child(2) td {
+    background-color: rgb(189, 227, 245);
+  }
+.legend table tr:nth-child(odd) {
+    background-color: rgb(248, 248, 212);
+  }
+.legend table tr:last-child td {
+    background-color: rgb(220, 247, 202);
+  }
+  body {
+    background: linear-gradient(to right, #d2e3f1, #f1d6f5); /* Degradado de color */
+    height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+    margin: 0; /* Elimina los márgenes por defecto */
+}
